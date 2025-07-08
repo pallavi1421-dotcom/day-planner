@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+.time-block {
+  display: flex;
+  margin: 10px 0;
+}
+.hour {
+  width: 80px;
+  padding: 10px;
+  background: #ddd;
+}
+.task {
+  flex: 1;
+  padding: 10px;
+}
+.saveBtn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.saveBtn:hover {
+  background: #1d4ed8;
+}
